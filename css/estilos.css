@@ -10,3 +10,9 @@ section{
 	background: url("../img/fondo.jpg");
 	background-size: cover;
 }
+
+.menu{
+	position: absolute; /*no existe en el flujo y se coloca en el 0 0 de su padre */
+}
+
+/*video 4:35*/
