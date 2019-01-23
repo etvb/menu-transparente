@@ -13,6 +13,38 @@ section{
 
 .menu{
 	position: absolute; /*no existe en el flujo y se coloca en el 0 0 de su padre */
+	width: 100%;
+	background: rgba(255,255,255,.5);
+	padding: 0 100px;
+	box-sizing: border-box; /*Para que cuando manod a flotar el nav, este no se salga de la imagen*/
+	border-bottom: 1px solid rgba(0,0,0,.2);
+}
+
+.menu img{
+	float: left;
+	width: 84px;
+}
+
+nav{
+	/*position: relative;*/
+	float: right;
+}
+
+nav ul{
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li{
+	list-style: none;
+}
+
+nav ul li a{
+	display: block; /*Para que el padding se aplique*/
+	text-transform: uppercase;
+	font-weight: bold;
+	padding: 30px 20px;
 }
 
 /*video 4:35*/
