@@ -41,10 +41,15 @@ nav ul li{
 }
 
 nav ul li a{
-	display: block; /*Para que el padding se aplique*/
+	display: block;
 	text-transform: uppercase;
 	font-weight: bold;
 	padding: 30px 20px;
+	text-decoration: none;
 }
 
-/*video 4:35*/
+nav ul li ul{
+	display: block;
+}
+
+/*video 9:31*/
