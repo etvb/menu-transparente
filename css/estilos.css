@@ -48,6 +48,11 @@ nav ul li a{
 	text-decoration: none;
 }
 
+nav ul li a:hover{
+	background: #184771;
+	color: #fff;
+}
+
 nav ul li ul{
 	display: block;
 	background: rgba(255,255,255,.5);
@@ -56,8 +61,21 @@ nav ul li ul{
 	position: absolute;
 	/*margin-top: 1px;*/
 	box-shadow: 0 2px 5px rgba(0,0,0,.5);
+	opacity: 0;/*Es para que en el hover desaparesca rapidamente*/
+	visibility: hidden;
 	transition: .5s;
+	transform: translatey(40px);
 
 }
 
+nav ul li:hover ul{
+	opacity: 1;
+	visibility: visible;
+	transform: translatey(0);
+
+}
+
+nav ul li ul a{
+	padding: 10px;
+}
 /*video 9:31*/
